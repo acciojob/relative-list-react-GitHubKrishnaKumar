@@ -6,7 +6,6 @@ const App = () => {
     <div id="main">
                <ol key={"relativeList"}>
     {
-      names.map((i,index)=>(<li key={`relativeListItem${index}`}>{i}</li>)
       names.map((i,index)=>(<li key={`relativeListItem${index}`}>{i}</li>))
     }
               </ol>
